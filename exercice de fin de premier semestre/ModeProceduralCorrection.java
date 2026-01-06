@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
-public class mode_Procedural_correction {
+public class ModeProceduralCorrection {
 
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
@@ -12,9 +12,9 @@ public class mode_Procedural_correction {
         capital = sc.nextDouble();
         System.out.println("Veuiller saisir le taux d'intérêt annuel ");
         double tauxmensuel = (sc.nextDouble()) / 1200;
-        System.out.println("Veuiller saisir la durée de remboursement (en années)");
+        System.out.println("Veuiller saisir la durée dde remboursement (en années)");
         nbmois = (sc.nextInt()) * 12;
-        double rembmensuel = mode_Procedural_correction.calculMensualite(capital, nbmois, tauxmensuel);
+        double rembmensuel = ModeProceduralCorrection.calculMensualite(capital, nbmois, tauxmensuel);
 
         System.out.printf("Votre mensualité de rembourserment sera de %.2f Euros ", rembmensuel);
 
