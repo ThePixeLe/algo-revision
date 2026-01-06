@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Déclaration de la classe
 // Le nom commence par une MAJUSCULE
-public class ModeProceduralCorrection {
+public class ModeProceduralCommente {
 
     // Point d’entrée du programme
     // Java commence toujours ici
