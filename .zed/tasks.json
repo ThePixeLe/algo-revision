@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Run Java File",
+    "command": "cd \"${dirname}\"; javac \"${file}\"; if ($?) { java \"${fileBasenameNoExtension}\" }",
+    "use_new_terminal": true,
+  },
+  {
+    "label": "Compile Java File",
+    "command": "cd \"${dirname}\"; javac \"${file}\"",
+    "use_new_terminal": true,
+  },
+  {
+    "label": "Run Compiled Java",
+    "command": "cd \"${dirname}\"; java \"${fileBasenameNoExtension}\"",
+    "use_new_terminal": true,
+  },
+]
