@@ -13,7 +13,7 @@ public class LesNombres {
 
         anneesManquantes = 18 - age;
 
-        System.out.println("il te manque "  + anneesManquantes + " années pour tes 18 ans");
+        System.out.println("il te manque "  + anneesManquantes + " années pour tes 18 ans.");
 
         sc.close();
     }
