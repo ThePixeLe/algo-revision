@@ -6,12 +6,16 @@ public class TriParBulle {
         Scanner sc = new Scanner(System.in);
 
         int n;
-        System.out.println("Combien de nombre voulez-vous génerer?");
 
-        n = sc.nextInt();
+        System.out.println("Combien de nombre voulez-vous génerer?");
+         n = sc.nextInt();
+
         int[] _tableau = new int[n];
+        
         TriParBulle.remplirTableau(_tableau);
         TriParBulle.afficherTableau(_tableau);
+
+
         System.out.println("Voici le tableau trié ");
         TriParBulle.trierTableau(_tableau);
         TriParBulle.afficherTableau(_tableau);
